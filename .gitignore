@@ -1,5 +1,5 @@
-tmp/
-*.pid
-.DS_store
-backup
-*.sw?
+node_modules/
+data/
+/config/settings-local.json
+.vscode
+**.DS_Store

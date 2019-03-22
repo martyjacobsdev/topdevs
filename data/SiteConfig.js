@@ -1,12 +1,12 @@
 module.exports = {
   blogPostDir: "guides", // The name of directory that contains your posts.
-  siteTitle: "Snipcart's Zombie\xa0survival using\xa0GatsbyJS", // Site title.
-  siteTitleAlt: "GatsbyJS Progressive Web App for e-commerce Demo", // Alternative site title for SEO.
+  siteTitle: "TopDevs - A curated list of the best tech from Amazon", // Site title.
+  siteTitleAlt: "A", // Alternative site title for SEO.
   siteLogo: "/logos/logo.svg", // Logo used for SEO and manifest.
   siteUrl: "https://snipcart.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-pwa-demo/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "A demo Progressive Web App with GatsbyJS and Snipcart",
+  siteDescription: "Discover the coolest technology products from Amazon on TopDevs. Curators hand pick quality products with focusing on functionality, style, affordable prices and low shipping.",
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
   snipcartApiKey: "MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4",
@@ -19,18 +19,13 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "Your Cart",
-      iconClassName: "fa fa-shopping-cart",
-      className: "snipcart-checkout"
-    },
-    {
-      label: "GitHub",
-      url: "https://github.com/snipcart/gatsby-pwa-demo",
-      iconClassName: "fa fa-github"
+      label: "Blog",
+      url: "https://zeroequalsfalse.press",
+      iconClassName: "fa fa-microchip"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Snipcart",
+      url: "https://twitter.com/ZeroEqualsFalse",
       iconClassName: "fa fa-twitter"
     }
   ]

@@ -12,6 +12,7 @@ class Footer extends Component {
     const { fixedFooter }  = config;
     return (
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
+        /** Insert ads here */
         {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
           <div className="copyright">

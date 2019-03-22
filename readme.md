@@ -1,31 +1,26 @@
-# Vue Sample Shop
+# A PWA Example: Build an E-Commerce Progressive Web App with Gatsby
 
-This small demo shows how to accept payments with stripe with Vue.js using a
-serverless function. It's actually not that bad to set up! The shop also shows
-how a number of concepts work in Vue. Server side rendering and routing is done
-with Nuxt.js. Centralized state management with Vuex for product details. Of
-note, using computed properties, `.sync`, CSS Grid, and `transition-group`.
+![pwa-ecommerce-gatsby](https://snipcart.com/media/204096/gatsby-pwa.png)
 
-Live demo at
-[https://shoppity.azurewebsites.net/](https://shoppity.azurewebsites.net/)
+Progressive Web Applications (PWAs) have been on the rise these last years. Solid PWA examples are popping up everywhere, and for good reasons.
 
-Articles explaining the demo will be available soon at
-[https://css-tricks.com/](https://css-tricks.com/)
+They encourage an inclusive, global, adaptative approach to web development. They make sense both from a user AND a business POV. Frameworks like React and Vue JS are increasingly used to craft PWAs.
 
-The serverless function is open source as well, available at this repo
-[https://github.com/sdras/sample-stripe-handler](https://github.com/sdras/sample-stripe-handler)
+I'll show you how to use Gatsby to build a smooth PWA store.
 
-![Vue stripe sample shop](https://image.ibb.co/hYi7nm/shop_demo.gif "Vue Stripe Sample Shop")
+Covering:
 
-## Build Setup
+- A definition of PWAs
+- A case for PWA e-commerce
+- An overview of Gatsby.js for PWAs
+- A detailed PWA example with steps, code repo, and live demo
 
-```bash
-# install dependencies
-$ npm install # Or yarn
+> [Read full tutorial](https://snipcart.com/blog/pwa-example-ecommerce-gatsby)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+> [See live demo](https://snipcart.github.io/gatsby-pwa-demo/)
 
-# generate static project, get ready for launch on app services
-$ npm run generate
-```
+Enjoy folks!
+
+***
+
+This demo is based on [Gatsby's Material Starter](https://github.com/Vagr9K/gatsby-material-starter).
